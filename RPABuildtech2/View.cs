@@ -18,7 +18,7 @@ namespace RPABuildtech2
 
         private void ButtonOK(object sender, EventArgs e)
         {
-            Commands.RunReport(textBox1.Text, textBox2.Text, checkBox1.Checked, checkBox2.Checked);
+            Commands.RunReport(textBox1.Text, textBox2.Text, checkBox2.Checked, checkBox1.Checked);
             Close();
         }
 
